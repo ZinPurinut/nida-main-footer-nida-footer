@@ -1,0 +1,35 @@
+{
+    "name": "nida-main-footer/nida-footer",
+    "description": "NIDA Footer Package for Laravel - Official footer component for NIDA websites",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "purinut mapan",
+            "email": "purinut.map@nida.ac.th"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\NidaFooter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\NidaFooter\\Providers\\NidaFooterServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/nida-footer"
+        }
+    ]
+}
